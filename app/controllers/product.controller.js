@@ -60,7 +60,7 @@ exports.findOne = (req, res) => {
     });
 };
 
-// Update a note identified by the noteId in the request
+// Update a product identified by the productId in the request
 exports.update = (req, res) => {
     // Validate Request
     if(!req.body.content) {
